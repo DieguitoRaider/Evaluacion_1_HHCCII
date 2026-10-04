@@ -1,0 +1,9 @@
+# Declaración de uso de inteligencia artificial
+
+* **Herramienta(s):** Google Gemini .
+* **Propósito del uso:** Apoyo código LaTeX, estructuración del repositorio en GitHub.
+* **Consulta o tarea realizada (resuma o enlace el registro pertinente):** verificación de sintaxis Markdown para README.md y ordenamiento de la estructura de carpetas del proyecto.
+* **Contenido incorporado al trabajo:** Estructura de código fuente LaTeX (`.tex`) y formato de tablas (`booktabs`).
+* **Procedimiento de verificación:** Verificación manual de todas las ecuaciones analíticas ($\delta_{teo} = \frac{P L^3}{48 E I}$, $I = \frac{b h^3}{12}$), comprobación paso a paso de los cálculos numéricos para $P = 20\text{ kN}$ y contraste de resultados frente a la planilla de datos.
+* **Cambios, correcciones o contenido descartado:** Se descartaron sugerencias de código con paquetes no requeridos (`biblatex`/`pgfplots` innecesarios) y se corrigieron aproximaciones numéricas imprecisas en la tabla de resultados.
+* **Responsabilidad final:** Declaro comprender y poder defender el contenido entregado.
