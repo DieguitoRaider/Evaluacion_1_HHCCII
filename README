@@ -1,0 +1,35 @@
+# Evaluación 1: Análisis de Deflexión en Viga Simplemente Apoyada
+
+**Autor:** Luis Diego Mundaca Sepúlveda  
+**Institución:** Universidad de Santiago de Chile — Departamento de Ingeniería en Obras Civiles  
+**Asignatura:** Herramientas Computacionales II
+
+---
+
+## Datos del Hito 1
+Caso: viga simplemente apoyada con carga puntual aplicada en el centro de la luz.
+
+Archivos de entrada:
+* `data/datos_viga.csv`: carga aplicada y deflexión medida en el centro.
+* `data/parametros_viga.xlsx`: geometría y módulo de elasticidad usados en el ejercicio.
+* `figures/esquema_viga.png`: esquema del caso.
+
+> Los datos de deflexión son sintéticos y fueron preparados exclusivamente con fines docentes. No modifique los archivos originales: cópielos a la carpeta de datos de su repositorio y documente cualquier transformación.
+
+---
+
+## Estructura del Repositorio
+
+* `data/`: Datos brutos del ensayo y parámetros del problema.
+* `analysis/`: Memoria de cálculo y procesamiento de datos.
+* `figures/`: Esquema de la viga y gráfico final Carga vs. Deflexión.
+* `report/`: Código fuente en LaTeX (`main_sections.tex`), referencias (`bibfile.bib`) y el PDF compilado final (`nota_tecnica.pdf`).
+* `USO_IA.md`: Declaración sobre el uso transparente de herramientas de IA generativa.
+
+---
+
+## Resumen Técnico
+* **Conversiones:** $ 1000\text{ mm} = 1\text{ m}$, $ 1\text{ GPa} = 1\text{ kN/mm^2}$ 
+* **Propiedades convertidas:** $L = 4000\text{ mm}$, $b = 200\text{ mm}$, $h = 400\text{ mm}$, $E = 25\text{ kN/ mm^2}$, $I = 1{,}067 \times 10^9\text{ mm}^4$.
+* **Pendiente teórica:** $\delta/P = 0{,}050\text{ mm/kN}$.
+* **Verificación:** Diferencia relativa $< 4\%$ frente al modelo analítico de Euler-Bernoulli.
