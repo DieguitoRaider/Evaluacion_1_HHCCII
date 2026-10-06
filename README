@@ -23,7 +23,7 @@ Archivos de entrada:
 * `data/`: Datos brutos del ensayo y parámetros del problema.
 * `analysis/`: Memoria de cálculo y procesamiento de datos.
 * `figures/`: Esquema de la viga y gráfico final Carga vs. Deflexión.
-* `report/`: Código fuente en LaTeX (`main_sections.tex`), referencias (`bibfile.bib`) y el PDF compilado final (`nota_tecnica.pdf`).
+* `report/`: Código fuente en LaTeX (`main_sections.tex y main.tex`), referencias (`referencias.bib`) y el PDF compilado final (`nota_tecnica_Hito1_MundacaLuisDiego.pdf`).
 * `USO_IA.md`: Declaración sobre el uso transparente de herramientas de IA generativa.
 
 ---
@@ -31,5 +31,5 @@ Archivos de entrada:
 ## Resumen Técnico
 * **Conversiones:** $ 1000\text{ mm} = 1\text{ m}$, $ 1\text{ GPa} = 1\text{ kN/mm^2}$ 
 * **Propiedades convertidas:** $L = 4000\text{ mm}$, $b = 200\text{ mm}$, $h = 400\text{ mm}$, $E = 25\text{ kN/ mm^2}$, $I = 1{,}067 \times 10^9\text{ mm}^4$.
-* **Pendiente teórica:** $\delta/P = 0{,}050\text{ mm/kN}$.
+* **Pendiente teórica:** $\delta/P = 0{,}051\text{ mm/kN}$.
 * **Verificación:** Diferencia relativa $< 4\%$ frente al modelo analítico de Euler-Bernoulli.
